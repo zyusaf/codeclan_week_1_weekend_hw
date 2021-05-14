@@ -55,3 +55,6 @@ def get_customer_pet_count(customers):
 def add_pet_to_customer(customers, add_pet):
     pets = customers["pets"]
     pets.append(add_pet)
+
+# def customer_can_afford_pet(customers):
+#     customer_money = customers["cash"]
